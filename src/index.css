@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+
+  @media screen and (max-width: 991.98px) {
+    height: 100vh;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    height: 100vh;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 575.98px) {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: Rampart One;
+  color: white;
+  background-color: #9f5ea5;
+  font-size: 48px;
+  padding: 38px 0;
+
+  @media screen and (max-width: 991.98px) {
+    font-size: 48px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 575.98px) {
+    font-size: 30px;
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 38px 0;
+  background-color: #cabcd7;
+  gap: 16px;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: inherit;
+  padding: 0 16px;
+  color: #8e867b;
+
+  @media screen and (max-width: 991.98px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 575.98px) {
+    font-size: 15px;
+  }
+}
+
+select,
+input {
+  background-color: #dcd7d5;
+  color: #8e867b;
+  padding: 16px 24px;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 128px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+
+  @media screen and (max-width: 991.98px) {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  /* @media screen and (max-width: 767.98px) {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+  } */
+
+  @media screen and (max-width: 575.98px) {
+    width: 180px;
+    height: 30px;
+    font-size: 10px;
+    padding: 10px;
+  }
+}
+
+.form button {
+  text-transform: uppercase;
+  background-color: #6d9f71;
+  color: white;
+  padding: 16px 24px;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 128px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+
+  @media screen and (max-width: 991.98px) {
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 575.98px) {
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+input[type="checkbox"] {
+  height: 13px;
+  width: 13px;
+  accent-color: #9f5ea5;
+  margin-right: 16px;
+
+  @media screen and (max-width: 575.98px) {
+    margin-right: 8px;
+  }
+}
+
+li button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0 16px;
+  color: #9f5ea5;
+
+  @media screen and (max-width: 575.98px) {
+    padding: 0 8px;
+  }
+}
+
+.list-items {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 24px;
+
+  @media screen and (max-width: 575.98px) {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+
+.every-item {
+  border-bottom: #9f5ea5 solid;
+  cursor: default;
+  padding: 19px;
+
+  &:hover {
+    border-bottom: #cabcd7 solid;
+  }
+}
+
+.footer {
+  font-family: inherit;
+  background-color: #b2bd86;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #8e867b;
+
+  @media screen and (max-width: 575.98px) {
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+}
